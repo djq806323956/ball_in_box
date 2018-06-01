@@ -54,7 +54,7 @@ def ball_in_box(m, blockers):
     percision = 800
     circles = []
     points = pro_points(xrange, yrange, percision)
-    for i in range(1,m):
+    for i in range(m):
         temp_r = 0
         circle = [0, 0, 0]
         for point in points:
